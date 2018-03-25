@@ -5,11 +5,11 @@
 </head>
 <body>
     <div id="footer">
-        Copyright &copy; 2017. Design by <a href="#" target="_blank">
+        Copyright &copy; 2014. Design by <a href="http://www.websitetemplates.org.in" target="_blank">
             website templates</a><br>
         <!--DO NOT remove footer link-->
         <!--Template designed by-->
-        <a href="#">
-            <img src="images/copyright.gif" class="copyright" alt="#"></a></div>
+        <a href="http://www.websitetemplates.org.in">
+            <img src="images/copyright.gif" class="copyright" alt="http://www.websitetemplates.org.in"></a></div>
 </body>
 </html>

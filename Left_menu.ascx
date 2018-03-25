@@ -11,8 +11,8 @@
             <div class="box">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Users</a></li>
+                    <li><a href="#">FeedBacks</a></li>
                     <li><a href="#">Products</a></li>
                     <%--<li><a href="#">Menu Item 5</a></li>
                             <li><a href="#">Menu Item 6</a></li>
