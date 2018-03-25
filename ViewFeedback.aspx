@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="Admin_Default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="ViewFeedback.aspx.cs" Inherits="Admin_ViewFeedback" %>
 
 <%@ Register TagPrefix="uc1" TagName="header" Src="~/Admin/Includes/header.ascx" %>
 <%@ Register TagPrefix="uc2" TagName="leftmenu" Src="~/Admin/Includes/Left_menu.ascx" %>
@@ -18,10 +18,9 @@
             <div class="right_section">
                 <div class="common_content">
                     <h2>
-                        Home</h2>
+                        View Feedback</h2>
                     <hr>
-                    <asp:Image ID="Image1" runat="server" Height="541px" 
-                        ImageUrl="~/images/Picture1.png" Width="728px" />
+                   
                 </div>
             </div>
             <div class="clear">

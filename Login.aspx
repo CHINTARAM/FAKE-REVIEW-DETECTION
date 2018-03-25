@@ -1,9 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Login.aspx.cs" Inherits="Login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Login.aspx.cs" Inherits="Admin_Login" %>
+
 
 <%@ Register TagPrefix="uc3" TagName="footer" Src="~/Includes/footer.ascx" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head id="Head1" runat="server">
     <title>Login</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <style type="text/css">
@@ -27,7 +28,7 @@
         <div id="header">
             <div class="top_banner">
                 <h1>
-                    Trustworthiness in E-Commerce Context</h1>
+                    A New Reputation Algorithm for Evaluating Trustworthiness in E-Commerce Context</h1>
                 <%--<p>
                     Enter Site Slogan</p>--%>
             </div>
@@ -64,8 +65,7 @@
                             <td class="style3">
                                 Password :</td>
                             <td class="style2">
-                                <asp:TextBox ID="txtPassword" runat="server" Height="23px" Width="139px" 
-                                    TextMode="Password"></asp:TextBox>
+                                <asp:TextBox ID="txtPassword" runat="server" Height="23px" Width="139px"></asp:TextBox>
                             </td>
                             <td class="style1">
                                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" 
@@ -82,13 +82,13 @@
                                     onclick="btnLogin_Click" />
                             </td>
                             <td class="style1">
-                                &nbsp;</td>
+                            </td>
                         </tr>
                         <tr>
                             <td class="style3">
                             </td>
                             <td class="style2">
-                                <a href="Registration.aspx">Register New User</a></td>
+                                <%--<a href="Registration.aspx">Register New User</a>--%></td>
                             <td class="style1">
                             </td>
                         </tr>
