@@ -44,7 +44,6 @@ body {
 	line-height:21px;
 	color:#113e5d;
 	background-color:#9ba0a3;
-	background-image: url('../images/green-1321187__180.jpg');
 	font-family:Georgia, "Times New Roman", Times, serif;
 }
 
@@ -102,8 +101,8 @@ h6 {
 
 	/*  tables
 	******************************/
-	table,th,td {border:1px solid #AAAAAA;}
-	th {padding:3px; font-weight:bold;}
+	table,th,td {border:0px solid #AAAAAA;}
+	th {padding:3px; font-weight:bold;color:#344b3b;}
 	tr {margin:0 0 5px 0;padding:3px;}
 	td {padding:5px;margin:0 1px;}
 	
@@ -142,8 +141,8 @@ h6 {
 
 #header .top_banner{
 	background:url(../images/header.jpg) no-repeat left top;
-	height:250px;
-	*padding:75px 95px 0 295px;
+	height:175px;
+	padding:75px 95px 0 295px;
 	border:#496066 solid 1px;
 }
 
@@ -153,7 +152,7 @@ h6 {
 	margin:0px;
 	font-family:Georgia, "Times New Roman", Times, serif;
 	font-weight:bold;
-	padding:75px 95px 0 210px
+	padding:0px 0px 10px;
 }
 
 #header h1 a {
@@ -210,7 +209,7 @@ h6 {
 
 /*----start page content----*/
 #page_content{
-	background:#FFFFFF;
+	background:#EBEEEE;
 	padding:10px;
 }
 
@@ -325,7 +324,5 @@ h6 {
 	color: #1B5219;
 	text-decoration:underline;
 }
-
-
 
 /*----end footer content----*/
